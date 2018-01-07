@@ -1,1 +1,1 @@
-add_lunch_combo gzosp_mido-userdebug
+add_lunch_combo bootleg_mido-userdebug

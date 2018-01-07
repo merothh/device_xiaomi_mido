@@ -16,13 +16,13 @@
 
 $(call inherit-product, device/xiaomi/mido/full_mido.mk)
 
-# Inherit some common LineageOS stuff.
+# Inherit some common Bootleggers stuff.
 TARGET_ARCH := arm64
 TARGET_DENSITY := xxhdpi
 TARGET_BOOT_ANIMATION_RES := 1080
-$(call inherit-product, vendor/gzosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/bootleggers/config/common_full_phone.mk)
 
-PRODUCT_NAME := gzosp_mido
+PRODUCT_NAME := bootleg_mido
 BOARD_VENDOR := Xiaomi
 PRODUCT_DEVICE := mido
 
